@@ -1,14 +1,50 @@
 :root {
+	--white-color: #fff;
 	--iris: #4d5ae5;
 	--ocean: #404bbf;
-	--navy-blue: #2e2f42;
+	--navy-dark: #2e2f42;
 	--green: #31d0aa;
-	--slate: #434455;
-	--light-slate: #8e8f99;
+	--main-text-color: #434455;
+	--secondary-text-color: #8e8f99;
 	--cornflower: #e7e9fc;
 	--cloud: #f4f4fd;
 	--navy-blue-modal: rgba(46, 47, 66, 0.4);
-	--grey: rgba(46, 47, 66, 0.7);
-	--white: #fff;
+	--hero-backround: rgba(46, 47, 66, 0.7);
 	--dairy: #fcfcfc;
 }
+
+body {
+font-family: Roboto, sans-serif;
+color: var(--main-text-color);
+background-color: var(--white-color);
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2%;
+font-weight: 400;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* header */
+.header {
+
+}
+.header-nav {
+
+}
+.header-logo {
+
+}
+.
+
+/* hero */
+/* features */
+/* our team */
+

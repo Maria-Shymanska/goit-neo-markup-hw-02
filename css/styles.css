@@ -36,12 +36,15 @@ a {
 
 
 /* header */
-.header {
 
+.header-nav .header-link:hover,
+.header-nav .header-link:focus {
+	color: var(--ocean);
 }
-.header-nav {
 
-}
+
+
+
 .header-logo {
 font-family: var(--second-family);
 font-weight: 700;
@@ -55,7 +58,101 @@ color: var(--navy-blue);
 color: var(--iris);
 }
 
-/* hero */
-/* features */
-/* our team */
+/* .header-list {
 
+}  */
+
+/* .header-item {
+
+} */
+
+
+.header-link {
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+}
+
+.address-link {
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: var(--slate);
+}
+
+
+.address-list .address-link:hover, 
+.address-list .address-link:focus {
+color: var(--ocean);
+} 
+
+
+
+/* hero */
+
+.hero {
+background-color: var(--navy-blue);
+}
+
+.hero-title {
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--white)
+}
+
+.hero-button {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--white);
+text-align: left;
+cursor: pointer;
+background-color: var(--iris);
+}
+
+.hero .hero-button:hover,
+.hero .hero-button:focus {
+color: var(--ocean);
+}
+
+/* features */
+
+.features-item-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+}
+
+.feature-item-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate);
+}
+
+/* our team */
+.team {
+	background: var(--cloud);
+} 
+
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--navy-blue);
+}

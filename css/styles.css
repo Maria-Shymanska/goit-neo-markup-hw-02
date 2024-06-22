@@ -71,12 +71,14 @@ color: var(--navy-blue);
 
 
 .header-link {
-font-family: var(--font-family);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--navy-blue);
+}
+.address {
+	font-style: normal;
 }
 
 .address-link {
@@ -198,6 +200,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: var(--navy-blue);
+text-transform: capitalize;
 }
 
 .portfolio-item-title {

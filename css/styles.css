@@ -42,7 +42,10 @@ a {
 	color: var(--ocean);
 }
 
-
+.address .address-link:hover
+.address .address-link:focus {
+color: var(--ocean);	
+}
 
 
 .header-logo {
@@ -122,7 +125,7 @@ background-color: var(--iris);
 
 .hero .hero-button:hover,
 .hero .hero-button:focus {
-color: var(--ocean);
+background-color: var(--ocean);
 }
 
 /* features */

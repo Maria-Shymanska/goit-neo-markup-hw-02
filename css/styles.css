@@ -77,9 +77,9 @@ color: var(--navy-blue);
 }
 
 .address-link {
-font-weight: 400;
 font-size: 16px;
-line-height: 150%;
+line-height: 1.5;
+font-style: normal;
 letter-spacing: 0.02em;
 color: var(--slate);
 }
@@ -155,4 +155,32 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: var(--navy-blue);
+}
+
+/* footer */
+
+.footer {
+	background: var(--navy-blue);
+}
+
+.footer-logo {
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--iris);
+}
+
+.logo-wight {
+	color: var(--cloud);
+}
+
+.footer-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--cloud);
 }
